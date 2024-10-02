@@ -1,0 +1,78 @@
+table {
+    border-collapse: collapse;
+    width: 300px;
+    color: #042940;  /*color.adobe.com */  
+}
+
+td {
+    border: 2px solid black;
+    width: 60px;
+    height: 30px;
+}
+
+.first-row{
+  text-align: center;
+  background-color: #098f8f;
+}
+.second-row{
+  text-align: center;
+  background-color: #f5f509 ;
+}
+
+.first-row:hover {
+  background-color: #f5f509;
+}
+
+.second-row:hover
+{
+  background-color: #098f8f ;
+}
+
+.flag-position {
+width: 200px;
+height: 100px;
+background-color: white;
+position: relative;
+border: 1px solid black; 
+}
+
+.flag-position .circle {
+width: 45px; 
+height: 45px;
+background-color: red;
+border-radius: 50%;
+position: absolute;
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%);
+}
+
+.flag-transform {
+width: 200px;
+height: 100px;
+background-color: white;
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 50px;
+}
+
+.flag-transform .circle {
+width: 45px; 
+height: 45px;
+background-color: red;
+border-radius: 50%;
+transform: translateY(0);
+}
+
+.container {
+display: flex;
+flex-direction: column;
+
+}
+.flag-container{
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+}
